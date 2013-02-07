@@ -1,0 +1,30 @@
+diff -aurN xfce4-terminal-0.6.1.orig/terminal/terminal-preferences.c xfce4-terminal-0.6.1/terminal/terminal-preferences.c
+--- xfce4-terminal-0.6.1.orig/terminal/terminal-preferences.c	2013-02-03 17:11:48.159932626 +0100
++++ xfce4-terminal-0.6.1/terminal/terminal-preferences.c	2013-02-03 17:13:16.703111877 +0100
+@@ -629,7 +629,7 @@
+       g_param_spec_string ("font-name",
+                            NULL,
+                            "FontName",
+-                           "Monospace 12",
++                           "Monospace 10",
+                            G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
+@@ -710,7 +710,7 @@
+       g_param_spec_boolean ("misc-menubar-default",
+                             NULL,
+                             "MiscMenubarDefault",
+-                            TRUE,
++                            FALSE,
+                             G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
+@@ -802,7 +802,7 @@
+                          NULL,
+                          "ScrollingBar",
+                          TERMINAL_TYPE_SCROLLBAR,
+-                         TERMINAL_SCROLLBAR_RIGHT,
++                         TERMINAL_SCROLLBAR_NONE,
+                          G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS);
+ 
+   /**
