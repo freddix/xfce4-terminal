@@ -2,12 +2,12 @@
 
 Summary:	X Terminal Emulator
 Name:		xfce4-terminal
-Version:	0.6.2
+Version:	0.6.3
 Release:	1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://archive.xfce.org/src/apps/xfce4-terminal/0.6/%{name}-%{version}.tar.bz2
-# Source0-md5:	d5cdb302bd770c9f2d30262c26639006
+# Source0-md5:	6a2816d8b0933cd707ed456ceb731399
 Patch0:		%{name}-freddix.patch
 URL:		http://www.os-cillation.com/
 BuildRequires:	autoconf
